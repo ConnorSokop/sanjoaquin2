@@ -4,6 +4,8 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+
 .clearfix::after {
 	content: "";
 	clear: both;
@@ -120,6 +122,29 @@ aside h3 {
 }
 aside img {
 	padding-bottom: 1em;
+}
+
+#nav_menu {
+	border-bottom: 3px solid #800000;
+	background-color: #800000;
+}
+
+#nav_menu li {
+	width: 20%;
+}
+
+#nav_menu a {
+	text-align: center;
+	display: block;
+	padding: .7em 0;
+	background-color: #800000;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+#nav_menu a:hover {
+	color: yellow;
 }
 
 /* the styles for the footer */
